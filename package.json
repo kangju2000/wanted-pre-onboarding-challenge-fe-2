@@ -1,15 +1,17 @@
 {
-	"name": "wanted-pre-onboarding-challenge-fe-2",
-	"version": "1.0.0",
-	"description": "",
-	"main": "index.js",
-	"scripts": {
-		"docs": "jsdoc -c jsdoc.json",
-		"predeploy": "yarn docs",
+  "homepage": "https://kangju2000.github.io/wanted-pre-onboarding-challenge-fe-2",
+  "name": "wanted-pre-onboarding-challenge-fe-2",
+  "version": "1.0.0",
+  "private": "true",
+  "description": "원티드 프리온보딩 프론트엔드 챌린지 2차",
+  "main": "index.js",
+  "scripts": {
+    "docs": "jsdoc -c jsdoc.json",
+    "predeploy": "yarn docs",
     "deploy": "gh-pages -d docs"
-	},
-	"devDependencies": {
-		"gh-pages": "^5.0.0",
-		"jsdoc": "^3.6.11"
-	}
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0",
+    "jsdoc": "^3.6.11"
+  }
 }
