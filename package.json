@@ -1,12 +1,15 @@
 {
-	"name": "jsdoc-boilerplate",
+	"name": "wanted-pre-onboarding-challenge-fe-2",
 	"version": "1.0.0",
 	"description": "",
 	"main": "index.js",
 	"scripts": {
-		"docs": "jsdoc -c jsdoc.json"
+		"docs": "jsdoc -c jsdoc.json",
+		"predeploy": "yarn docs",
+    "deploy": "gh-pages -d docs"
 	},
 	"devDependencies": {
+		"gh-pages": "^5.0.0",
 		"jsdoc": "^3.6.11"
 	}
 }
